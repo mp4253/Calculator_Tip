@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.center-box {
+    text-align: center;
+}
+
+.left {
+    margin-right: 115px;
+}
+
+label, input, button, p {
+    margin: 10px 0;
+}
+
+input[type="text"], button {
+    padding: 5px;
+}
+
+input[type="button"]{
+    padding: 5px;
+    margin-top: 18px;
+    /* margin-left: 20px; */
+}
+
+p.center-box{
+    margin-right: 30px;
+}
